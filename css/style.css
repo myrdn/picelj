@@ -1,15 +1,23 @@
+.wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+h1 {
+   font-family: 'Lato', sans-serif;
+}
+
 .wrapper {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 100vh;
-  align-items: center;
-  justify-items: center; /* adjusted */
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center; 
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 200px 200px 200px;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: 125px 125px 125px;
+    grid-template-rows: 400px 400px;
     grid-column-gap: 0px;
     grid-row-gap: 20px;
     background-color: rgb(68,60,60);
