@@ -14,6 +14,8 @@ h1 {
     justify-items: center; 
 }
 
+/* First Grid */
+
 .grid {
     display: grid;
     grid-template-columns: 125px 125px 125px;
@@ -35,4 +37,51 @@ h1 {
 .red {
     grid-column: 1/4;
     background-color: rgb(228,89,81);
+}
+
+/* Second Grid */
+
+.grid2 { 
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 125px 125px 125px;
+    grid-template-rows: 400px;
+    border: 20px solid black;
+    background-color: black;
+}
+
+.green {
+    background-color: rgb(66,198,64);
+}
+
+.black {
+    background-color: black;
+}
+
+/* Third Grid */
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 375px;
+    grid-template-rows: 133px 133px 133px;
+    border-left: 20px solid black;
+    border-right: 20px solid black;
+    border-bottom: 20px solid black;
+}
+
+.cream {
+    background-color: rgb(234,220,194);
+}
+
+.row {
+    grid-column: 1/3;
+}
+
+.red2 {
+    grid-column: 1/3;
+    background-color: rgb(239,26,1);
+ }   
+
+ .row2 {
+     grid-column: 1/3;
 }
