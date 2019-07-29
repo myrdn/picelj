@@ -1,7 +1,7 @@
 .wrap {
     display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
+    grid-template-columns: 415px;
+    justify-content: space-around;
 }
 
 h1,p {
