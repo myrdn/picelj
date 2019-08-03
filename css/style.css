@@ -124,3 +124,33 @@ h1,p {
 .yellow2 {
     background-color: rgb(254,218,15);
 }
+
+/* Sixt Grid */
+
+.grid6 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns:70px 70px 70px 70px 70px;  
+    grid-template-rows: 235px; 
+    border: 35px solid rgb(35,39,40);
+    border-bottom: 17.5px solid rgb(35,39,40);
+    grid-column-gap: 35px;
+    background-color: rgb(35,39,40);
+}
+
+.grey {
+background-color: rgb(245,242,243);
+}
+
+/* Seventh Grid */
+
+
+.grid7 {
+    display: grid;
+    grid-template-columns:70px 70px 70px 70px 70px;  
+    grid-template-rows: 235px; 
+    border: 35px solid rgb(35,39,40);
+    border-top: 17.5px solid rgb(35,39,40);
+    grid-column-gap: 35px;
+    background-color: rgb(35,39,40);
+}
