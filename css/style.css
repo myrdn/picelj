@@ -182,3 +182,31 @@ background-color: rgb(245,242,243);
 
 .blood {
     background-color: rgb(174,39,40);
+}
+
+/* Tenth Grid */
+
+.grid10 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns:70px 70px 70px 70px 70px;  
+    grid-template-rows: 235px; 
+    border: 35px solid rgb(35,39,40);
+    border-bottom: 17.5px solid rgb(35,39,40);
+    grid-column-gap: 35px;
+    background-color: rgb(35,39,40);
+}
+
+/* Eleventh Grid */
+
+.grid11 {
+    display: grid;
+    grid-template-columns:70px 70px 70px 70px 70px;  
+    grid-template-rows: 235px; 
+    border: 35px solid rgb(35,39,40);
+    border-top: 17.5px solid rgb(35,39,40);
+    grid-column-gap: 35px;
+    background-color: rgb(35,39,40);
+}
+
+
