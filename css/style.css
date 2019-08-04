@@ -1,3 +1,9 @@
+/* Cursor */
+
+span {
+    cursor: crosshair; 
+}
+
 .wrap {
     display: grid;
     grid-template-columns: 415px;
